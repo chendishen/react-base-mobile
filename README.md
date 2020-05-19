@@ -68,19 +68,19 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 
-## spa项目构建过程
+# spa项目构建过程
 
-# create-react-app mobile
+## create-react-app mobile
 
-# npm install antd-mobile --save
+## npm install antd-mobile --save
 
-# npm install babel-plugin-import --save
+## npm install babel-plugin-import --save
 (按需引入，添加.babelrc)
 
-# npm install dotenv-cli --save-dev
+## npm install dotenv-cli --save-dev
 (要在命令行中使用，所以使用 dotenv-cli, dotenv可将环境变量从 .env 文件加载到 process.env中。)
 
-# npm install react-app-rewired --save
+## npm install react-app-rewired --save
 (使用react-app-rewired，安装这个工具后，在项目根目录中新建文件config-overrides.js文件。可以不eject操作webpack)
 
 根目录下创建 .env.development .env.test .env.production配置文件，用以分环境打包，对应package.json的相关入口:
@@ -89,13 +89,13 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 # ----- 暂时配置到这里 ------
 
-# npm install axios --save
+## npm install axios --save
 
 React Hooks(个别使用Hooks语法) 
 
-# npm install redux --save
+## npm install redux --save
 
-# npm install redux-saga --save
+## npm install redux-saga --save
 
 中间件的选择：redux-thunk VS redux-saga
 
@@ -114,9 +114,9 @@ redux-saga的优缺点
 （5） 异步操作的流程是可以控制的，可以随时取消相应的异步操作。
 缺点：太复杂，学习成本较高
 
-# npm install redux-devtools-extension --save
+## npm install redux-devtools-extension --save
 
-# npm install redux-logger --save-dev 
+## npm install redux-logger --save-dev 
 
-# npm install moment --save
+## npm install moment --save
 (日期处理类库)
