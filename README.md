@@ -85,9 +85,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 根目录下创建 .env.development .env.test .env.production配置文件，用以分环境打包，对应package.json的相关入口:
 命名规范：REACT_APP_ + '变量' 如：REACT_APP_BASE_URL
+调用示例: process.env.REACT_APP_BASE_URL
 注意事项: 修改配置文件需要重新运行项目
-
-# ----- 暂时配置到这里 ------
 
 ## npm install axios --save
 
@@ -117,6 +116,8 @@ redux-saga的优缺点
 ## npm install redux-devtools-extension --save
 
 ## npm install redux-logger --save-dev 
+
+# ----- 暂时配置到这里 ------
 
 ## npm install moment --save
 (日期处理类库)
