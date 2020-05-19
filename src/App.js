@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+import { NavBar, Icon, Button } from 'antd-mobile';
 import './App.css';
 
-function App() {
+const App = () => {
+  const [env, setEnv] = useState('')
+  useEffect(() => {
+    setEnv(process.env.REACT_APP_BASE_URL)
+    console.log(env)
+  }, [env])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Button type="primary">分环境测试:{env}</Button>
+      <NavBar
+        mode="light"
+        icon={<Icon type="left" />}
+        onLeftClick={() => console.log('onLeftClick')}
+        rightContent={[
+          <Icon key="0" type="search" style={{ marginRight: '16px' }} />,
+          <Icon key="1" type="ellipsis" />,
+        ]}
+      >antd按需引入测试</NavBar>
     </div>
   );
 }

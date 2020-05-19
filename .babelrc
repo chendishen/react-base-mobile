@@ -1,0 +1,11 @@
+// .babelrc or babel-loader option
+{
+    "presets": ["next/babel"], //Next.js的总配置文件，相当于继承了它本身的所有配置
+    "plugins": [
+        [
+            "import",
+            { "libraryName": "antd-mobile"
+            }
+        ] // `style: true` 会加载 less 文件
+    ]
+}
