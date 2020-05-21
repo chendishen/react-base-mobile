@@ -117,6 +117,9 @@ redux-saga的优缺点
 
 ## npm install redux-logger --save-dev 
 
+## npm install http-proxy-middleware --save-dev
+(引入本地开发所需要的反向代理,创建 src/setupProxy.js 文件)
+
 # ----- 暂时配置到这里 ------
 
 ## npm install moment --save
