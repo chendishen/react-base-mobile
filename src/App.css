@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.the-test{
+  width: 750px;
+  height: 200px;
+  background: #61dafb;
+  text-align: center;
+  font-size: 32px;
+  line-height: 200px;
+}

@@ -28,7 +28,6 @@ const App = () => {
   return (
     <div>
       <Button type="primary">分环境测试:{env}</Button>
-      <div>{arr}</div>
       <NavBar
         mode="light"
         icon={<Icon type="left" />}
@@ -38,6 +37,7 @@ const App = () => {
           <Icon key="1" type="ellipsis" />,
         ]}
       >antd按需引入测试</NavBar>
+      <div className='the-test'>vw配置测试</div>
     </div>
   );
 }

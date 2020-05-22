@@ -83,6 +83,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ## npm install react-app-rewired --save
 (使用react-app-rewired，安装这个工具后，在项目根目录中新建文件config-overrides.js文件。可以不eject操作webpack)
 
+### 多环境打包配置
 根目录下创建 .env.development .env.test .env.production配置文件，用以分环境打包，对应package.json的相关入口:
 命名规范：REACT_APP_ + '变量' 如：REACT_APP_BASE_URL
 调用示例: process.env.REACT_APP_BASE_URL
@@ -119,6 +120,12 @@ redux-saga的优缺点
 
 ## npm install http-proxy-middleware --save-dev
 (引入本地开发所需要的反向代理,创建 src/setupProxy.js 文件)
+
+## 开始配置vw 移动端可以按照设计图直接写px自动适配的神器
+## npm install postcss-aspect-ratio-mini postcss-px-to-viewport postcss-write-svg postcss-viewport-units cssnano cssnano-preset-advanced postcss-preset-env --save-dev
+## npm install react-app-rewire-postcss --save-dev
+(这里要注意，使用antd这UI框架的时候，已经设置了关键字'am'不进行vw处理，所以命名样式类名的时候应该避免关键词'am')
+
 
 # ----- 暂时配置到这里 ------
 

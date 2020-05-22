@@ -41,8 +41,16 @@
     ]
   },
   "devDependencies": {
+    "cssnano": "^4.1.10",
+    "cssnano-preset-advanced": "^4.0.7",
     "dotenv-cli": "^3.1.0",
     "http-proxy-middleware": "^1.0.4",
+    "postcss-aspect-ratio-mini": "^1.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-viewport-units": "^0.1.6",
+    "postcss-write-svg": "^3.0.1",
+    "react-app-rewire-postcss": "^3.0.2",
     "redux-logger": "^3.0.6"
   }
 }
