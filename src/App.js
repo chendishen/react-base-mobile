@@ -18,6 +18,14 @@ const App = () => {
       defaultGetTypeInfo()
         .then(res => {
           console.log(res)
+          const data = res.data
+          // const action = getListAction(data)
+          const action = {
+              type:'GET_LIST',
+              value:data
+          }
+          store.dispatch(action)
+          setArray(data)
         })
         .catch(error => {
           console.log(error)
