@@ -58,6 +58,7 @@
 ##### (这里要注意，使用antd这UI框架的时候，已经设置了关键字'am'不进行vw处理，所以命名样式类名的时候应该避免关键词'am')
 ##### (安装完需要配置config-overrides.js文件)
 
+## npm install node-sass --save-dev 
 
 # ----- 暂时配置到这里 ------
 
