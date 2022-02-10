@@ -46,7 +46,7 @@
     "cssnano-preset-advanced": "^4.0.7",
     "dotenv-cli": "^3.1.0",
     "http-proxy-middleware": "^1.0.4",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "postcss-aspect-ratio-mini": "^1.1.0",
     "postcss-preset-env": "^6.7.0",
     "postcss-px-to-viewport": "^1.1.1",
